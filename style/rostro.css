@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+video {
+    position: absolute;
+    z-index: 1;
+}
+
+canvas {
+    position: relative;
+    z-index: 20;
+}
+
+.boton{
+    display: block;
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+    background: #05A147;
+}
