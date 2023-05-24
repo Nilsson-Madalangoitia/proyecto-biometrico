@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style/reset.css">
-    <link rel="stylesheet" href="/style/rostro.css">
+    <link rel="stylesheet" href="/style/iris.css">
     <title>Rostro</title>
     <script src="./public/js/face-api.min.js"></script>
 </head>
@@ -17,15 +17,13 @@
 
     <p class="titulo">Mire fijamente a la cámara</p>
 
-    <div style="position: relative">
-        <video onloadedmetadata="onPlay(this)" id="inputVideo" autoplay muted playsinline></video>
-        <canvas id="overlay">
+    <div>
+        <img class="img-iris" src="/public/images/iris.gif" alt="">
+        <img class="img-iris" src="/public/images/iris.gif" alt="">
     </div>
-    
     <h3 id="escanner">Escaneando...</h3>
     <a class="boton" id="boton" href="index.html">CORRECTO</a>
 
-    <script src="./public/js/script_webcam.js"></script>
     <script>
         
         document.getElementById('boton').style.display = 'none';
@@ -33,11 +31,11 @@
 
         setTimeout(function(){
             document.getElementById('escanner').style.display = 'none';
-        }, 15000);
+        }, 4000);
     
         setTimeout(function(){
             document.getElementById('boton').style.display = 'inline';
-        }, 15000);
+        }, 4000);
 
     </script>
     

@@ -11,18 +11,14 @@ body{
 
 .titulo{
     font-size: 2rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
-video {
-    position: absolute;
-    z-index: 1;
-}
-
-canvas {
-    position: relative;
-    z-index: 20;
+.img-voz{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 2rem;
 }
 
 #escanner{
@@ -32,7 +28,6 @@ canvas {
 .boton{
     display: block;
     font-size: 2rem;
-    margin-top: 1rem;
     text-decoration: none;
     color: white;
     background: #05A147;

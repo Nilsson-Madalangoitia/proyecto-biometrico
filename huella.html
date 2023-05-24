@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style/reset.css">
+    <title>Escaner Huella Digital</title>
     <link rel="stylesheet" href="/style/huella.css">
-    <title>Document</title>
 </head>
 <body>
+    <div class="scan">
+        <div class="huella"></div>
+        <h3 id="escanner">Escaneando...</h3>
+        <a class="boton" id="boton" href="index.html">CORRECTO</a>
+    </div>
     
+    <script>
+        
+        document.getElementById('boton').style.display = 'none';
+        document.getElementById('escanner').style.display = 'inline';
+
+        setTimeout(function(){
+            document.getElementById('escanner').style.display = 'none';
+        }, 3000);
+    
+        setTimeout(function(){
+            document.getElementById('boton').style.display = 'inline';
+        }, 3000);
+
+    </script>
+
 </body>
 </html>
