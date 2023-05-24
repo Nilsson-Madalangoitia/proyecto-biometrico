@@ -24,12 +24,18 @@
     
     <h3 id="escanner">Escaneando...</h3>
     <a class="boton" id="boton" href="index.html">CORRECTO</a>
+    <div class="datos">
+        <p id="nombre">Nilsson Madalangoitia Principe</p>
+        <p id="ids">ID: 000118078</p>
+    </div>
 
     <script src="./public/js/script_webcam.js"></script>
     <script>
         
         document.getElementById('boton').style.display = 'none';
         document.getElementById('escanner').style.display = 'inline';
+        document.getElementById('nombre').style.display = 'none';
+        document.getElementById('ids').style.display = 'none';
 
         setTimeout(function(){
             document.getElementById('escanner').style.display = 'none';
@@ -37,6 +43,14 @@
     
         setTimeout(function(){
             document.getElementById('boton').style.display = 'inline';
+        }, 15000);
+
+        setTimeout(function(){
+            document.getElementById('nombre').style.display = 'inline';
+        }, 15000);
+
+        setTimeout(function(){
+            document.getElementById('ids').style.display = 'inline';
         }, 15000);
 
     </script>

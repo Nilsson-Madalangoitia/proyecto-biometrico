@@ -11,8 +11,14 @@ body{
 }
 
 .titulo{
-    margin-bottom: 4rem;
-    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.subtitulo{
+    margin-bottom: 2rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 

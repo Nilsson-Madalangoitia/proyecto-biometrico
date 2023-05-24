@@ -33,3 +33,11 @@ body{
     color: white;
     background: #05A147;
 }
+
+.datos{
+    margin-top: 2rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}

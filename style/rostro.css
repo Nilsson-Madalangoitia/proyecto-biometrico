@@ -7,6 +7,7 @@ body{
     margin: 0 auto;
     width: 100%;
     text-align: center;
+    padding-top: 2rem;
 }
 
 .titulo{
@@ -36,4 +37,12 @@ canvas {
     text-decoration: none;
     color: white;
     background: #05A147;
+}
+
+.datos{
+    margin-top: 2rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
